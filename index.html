@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Black & White Text Effects | CSS</title>
+  </head>
+  <body>
+    <section>
+      <div class="pointer"></div>
+      <h1>Black & White</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia ipsum
+        quisquam, ullam, voluptatibus nostrum placeat non rem laborum cupiditate
+        a aut id amet dicta dolores fugiat aspernatur, quod pariatur praesentium
+        iure blanditiis cumque? Accusantium in omnis nam doloremque vero nobis,
+        iste dolore error autem, esse blanditiis suscipit quis. Atque aliquid ut
+        alias mollitia nam odit illo asperiores veritatis rerum neque
+        consequatur, quidem maiores ducimus, animi optio culpa harum aperiam,
+        omnis ex. Sit officia dignissimos nemo aperiam modi, officiis ducimus
+        voluptatem odio impedit nostrum a quae quos velit? Soluta, voluptate
+        porro! At voluptates illo doloremque sequi mollitia molestias quaerat
+        amet ex aut consectetur. Similique corrupti minima, quae eligendi
+        voluptatum illo voluptas perferendis, sunt eius odio harum quasi
+        necessitatibus, explicabo porro nam labore vero ratione repellat ea
+        cumque hic tempore natus amet? Explicabo officiis molestiae corporis
+        reprehenderit, earum, eius voluptatibus sit porro, deleniti minima vitae
+        natus magnam autem perspiciatis tempora sapiente dolor deserunt at
+        repellat consectetur quis possimus voluptas minus illo. Natus voluptatum
+        atque quod hic. Asperiores porro facilis ab esse suscipit soluta
+        exercitationem commodi velit ipsam sint nulla repellat, rerum eveniet
+        officiis nisi consequatur facere iste. Aliquid vel, corporis illum
+        quidem minus a, aperiam optio id illo officia reprehenderit? Iste,
+        quibusdam?
+      </p>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+      $(document).mousemove(function (e) {
+        $(".pointer").css({ left: e.pageX, top: e.pageY });
+      });
+    </script>
+  </body>
+</html>
